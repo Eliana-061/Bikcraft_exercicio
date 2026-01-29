@@ -7,33 +7,34 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div class="img_titulo">
+  <!--Cabeçalho-->
+  <header>
     <img src="./img/bikcraft.svg" alt="titulo Bikcraft" >
-  </div>
-  <!--MENU-->
-  <div class="menu">
-    <a class="item_menu" href="/">SOBRE</a>
-    <a class="item_menu" href="/">PRODUTOS</a>
-    <a class="item_menu" href="/">LOJAS</a>
-    <a class="item_menu" href="/">CONTATO</a>
-  </div>
+    <!--MENU-->
+    <nav>
+      <ul class="menu">
+        <li><a class="item_menu" href="/">sobre</a></li>
+        <li><a class="item_menu" href="/">produtos</a></li>
+        <li><a class="item_menu" href="/">lojas</a></li>
+        <li><a class="item_menu" href="/">contatos</a></li>
+      </ul>
+    </nav>
+  </header>
   <!--CONTEÚDO PRINCIPAL -->
-  <div class="conteudo_principal">
-    <!--DESCRIÇÃO-->
-    <div class="descricao">
+  <main>
+    <!--Introdução-->
+    <div class="introducao">
       <!--Linha Vermelha-->
       <hr>
       <h1>Bicicletas Feitas a Mão</h1>
-      <p class="text_introducao">A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.</p>
+      <p>A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.</p>
       <a class="botao" href="/">VER MAIS</a>
     </div>
-    <!--IMAGEM DA BICICLETA-->
-    <div>
-      <img class="foto_bike" src="./img/bicicleta.jpg" alt="">
-    </div>
+    <!--Imagem bicicleta-->
+    <img src="./img/bicicleta.jpg" alt="">
+    <!--Vantagens da Bikcraft-->
     <h1 class="vantagens">VANTAGENS BIKCRAFT</h1>
-    <!--VANTAGENS-->
-    <div class="conteudo_vantagem">
+    <section class="conteudo_vantagem" aria-label="Vantagens da Bikcraft">
       <div class="descricao_vantag">
         <img class="icon" src="./img/eletrica.svg" alt="">
         <h3>Motor Elétrico</h3>
@@ -49,17 +50,13 @@
         <h3>Rastreador</h3>
         <p class="text_vantag">Rastreador e sistema anti-furto para garantir o seu sossego.</p>
       </div>
-
-    </div>
-
-  </div>
+    </section>
+  </main>
 
   <!--Rodapé-->
-  <div class="rodape">
+  <footer>
     <p>Bikcraft. Alguns Direitos Reservados.</p>
-  </div>
-
-
+  </footer>
   
 </body>
 </html>
